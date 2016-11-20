@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CODICE</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Rajdhani" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" type="text/css" />
+    <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div id='nav' class='navbar-fixed-top'>
+        <ul>
+            <li id='nav-brand'>
+                <h3>CODICE|API</h3></li>
+            <div id="nav-links">
+                <li class='active'>
+                  <h4>Features</h4>
+                </li>
+                <li>
+                  <h4>Pricing</h4>
+                </li>
+                <li>
+                  <h4>Contact</h4>
+                </li>
+            </div>
+            <div id='right-links' class='right'>
+              <li id='logIn'>
+                <h4>Log In</h4>
+              </li>
+              <li id='signUp'>
+                <h4>Sign Up</h4>
+              </li>
+            </div>
+        </ul>
+    </div>
+
+    <div id="video-container">
+      <div id="background-video" >
+        <video id="my-video" class="video" autoplay="autoplay" loop="loop" muted="" width="300" height="150">
+          <source src="./love_coding.mp4" type="video/mp4" />
+          <source src="media/demo.ogv" type="video/ogg" />
+          <source src="media/demo.webm" type="video/webm" />
+        </video><!-- /video -->
+      </div>
+      <div id="main">
+        <h1 class='wow fadeInDown'>CODICE</h1>
+        <h3 class='wow fadeInUp' data-wow-delay="0.3s">Code Execution API</h3>
+        <div class="down-button">
+          <i class="material-icons">keyboard_arrow_down</i>
+        </div>
+      </div>
+    </div>
+
+    <div id='features' class>
+      <div class="container">
+        <div class="row">
+          <div class="header wow fadeInDown">
+            <h1>Why Choose Codice</h1>
+          </div>
+          <div id="features-container">
+            <div class="feature col-md-6">
+              <i class="material-icons wow bounceIn" data-wow-delay="0.5s">vpn_key</i>
+              <div class='wow fadeInUp'>
+                <h2>Security</h2>
+                <p>Cras quam sollicitudin. Velit praesent, et nulla donec, leo et. Nunc erat morbi, vitae ornare tortor, libero laoreet. Feugiat commodo, ipsum pellentesque aenean. At tempus, vestibulum justo pretium. Nulla sed cras.</p>
+              </div>
+            </div>
+            <div class="feature col-md-6">
+              <i class="material-icons wow bounceIn" data-wow-delay="0.8s">business</i>
+              <div class='wow fadeInUp' data-wow-delay="0.3s">
+                <h2>Infrastructure</h2>
+                <p>Maecenas sed libero, imperdiet pulvinar. Etiam quisque imperdiet. Maecenas turpis, eleifend nisl. Euismod turpis in, ligula tincidunt. Magna fringilla, a aliquet nunc, urna odio. Tortor urna viverra, quod wisi.</p>
+              </div>
+            </div>
+            <div class="feature col-md-6">
+              <i class="material-icons wow bounceIn" data-wow-delay="0.9s">language</i>
+              <div class='wow fadeInUp' data-wow-delay="0.4s">
+                <h2>More Than 30+ Languages</h2>
+                <p>Ac urna viverra. Vivamus amet, suscipit ipsum fringilla, ullamcorper lobortis arcu. Risus cum lacus, aliquam nullam. Malesuada non, laboris sem leo, illum sit. Cillum velit laoreet, platea suspendisse placerat</p>
+              </div>
+            </div>
+            <div class="feature col-md-6">
+              <i class="material-icons wow bounceIn" data-wow-delay="1s">code</i>
+              <div class='wow fadeInUp' data-wow-delay="0.5s">
+                <h2>Fast Code execution</h2>
+                <p>Ante enim, consequat integer placerat, vestibulum sed congue. Morbi diam pede, erat mauris, arcu mi. Eu neque. Sem consectetuer non, arcu cillum. Ipsum mattis purus, eu id vitae, id ornare. Dolor ac, nec hendrerit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id='steps'>
+      <div class="container">
+        <h2 class='wow fadeInUp' data-wow-delay="0.5s">Run Programs In 3 Easy Steps</h2>
+        <div class="step col-md-4 wow fadeInLeft" data-wow-delay="0.1s">
+          <i class="material-icons">send</i>
+          <h3>Send us your source code using http or a library</h3>
+        </div>
+        <div class="step col-md-4 wow fadeInLeft" data-wow-delay="0.2s">
+          <i class="material-icons">storage</i>
+          <h3>We ran your program in a safe and fast environment</h2>
+        </div>
+        <div class="step col-md-4 wow fadeInLeft" data-wow-delay="0.3s">
+          <i class="material-icons">poll</i>
+          <h3>Then we return your program’s results in json format</h3>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="http://localhost:8080/webpack-dev-server.js"></script>
+    <script src="dist/bundle.js" charset="utf-8"></script>
+    <script src="bower_components/wow/dist/wow.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      new WOW().init();
+    </script>
+    <script type="text/javascript">
+      $(document).scroll(function() {
+        var dHeight = $('#main').height();
+        if (dHeight >= $(this).scrollTop()) {
+          $('#nav').css('background', 'rgba(11,11,11,' + $(this).scrollTop() / 450 + ')');
+        }
+      });
+    </script>
+</body>
+
+</html>

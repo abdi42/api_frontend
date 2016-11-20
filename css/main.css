@@ -1,0 +1,42 @@
+
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: -100;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+
+#main{
+  position:absolute;
+  z-index:1;
+  color:white;
+  text-align:center;
+  width:100%;
+  top:35%;
+}
+
+#main h1 {
+  font-size:7em;
+}
+
+
+#video-container{
+  width:100%;
+  height:100%;
+}
+
+.down-button{
+  margin-top:250px;
+}
+
+.down-button i{
+  font-size:5em;
+  border-radius:50px;
+  padding:10px;
+  color:white;
+}

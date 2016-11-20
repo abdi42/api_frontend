@@ -1,0 +1,39 @@
+#features{
+  background-color:white;
+  min-width:100%;
+  padding:75px;
+}
+
+#features .header{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+#features .header h1{
+  text-align:center;
+}
+
+#features-container{
+  padding-left:3%;
+  padding-right:3%;
+}
+
+.feature{
+  padding:5%;
+}
+
+.feature h2{
+  margin-bottom:25px;
+}
+
+
+.feature p{
+  font-size:1.3em;
+  font-weight:lighter;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.feature i{
+  font-size:3em;
+  margin-bottom:25px;
+}
