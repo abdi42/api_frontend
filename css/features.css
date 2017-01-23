@@ -1,39 +1,21 @@
 #features{
+  height:500px;
+  border-radius:6px;
   background-color:white;
-  min-width:100%;
-  padding:75px;
+  margin:-60px 30px 0;
+  margin-top:100px;
+  box-shadow:0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+  z-index:3;
 }
 
-#features .header{
-  margin-top:50px;
-  margin-bottom:50px;
-}
+#editor{
+  margin:-60px;
+  margin-bottom:0px;
+  border-radius:15px !important;
+  min-height:250px;
+  background-color:#2e3037 !important;
+  box-shadow:0 16px 24px 2px rgba(0,0,0,.14),
+             0 6px 30px 5px rgba(0,0,0,.12),
+             0 8px 10px -5px rgba(0,0,0,.2);
 
-#features .header h1{
-  text-align:center;
-}
-
-#features-container{
-  padding-left:3%;
-  padding-right:3%;
-}
-
-.feature{
-  padding:5%;
-}
-
-.feature h2{
-  margin-bottom:25px;
-}
-
-
-.feature p{
-  font-size:1.3em;
-  font-weight:lighter;
-  font-family: 'Rajdhani', sans-serif;
-}
-
-.feature i{
-  font-size:3em;
-  margin-bottom:25px;
 }
